@@ -11,3 +11,32 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+$gray: #F4F4F4;
+
+
+body {
+  background: $gray; // Using this variable
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  padding: 20px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none ;
+  color: gray;
+}
